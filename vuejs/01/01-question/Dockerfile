@@ -1,3 +1,3 @@
-FROM node:10.13-alpine
+FROM node:18-slim
 WORKDIR /src
 CMD ["sh"]
