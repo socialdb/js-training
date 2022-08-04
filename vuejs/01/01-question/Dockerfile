@@ -1,3 +1,3 @@
 FROM node:10.13-alpine
-WORKDIR /app
+WORKDIR /src
 CMD ["sh"]
