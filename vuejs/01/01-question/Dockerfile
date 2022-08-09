@@ -7,9 +7,9 @@ ENV LANG=C.UTF-8 \
  TZ=Asia/Tokyo
 
 # ↓↓↓ここはまだコメントアウト(後ほど使用)↓↓↓
-COPY package.json yarn.lock ./
+COPY package.json ./
 
-RUN yarn install
+RUN npm install
 
 # 3000番でコンテナを公開
 EXPOSE 3000

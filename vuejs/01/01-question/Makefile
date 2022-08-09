@@ -1,3 +1,8 @@
+init:
+	@make build
+	@make up
+	@make npm-install
+	@make npm-dev
 build:
 	docker-compose build --no-cache --force-rm
 up:
@@ -12,5 +17,5 @@ npm-dev:
 	docker-compose exec node npm run dev
 npm-build:
 	docker-compose exec node npm run build
-init:
-	npm create vite@latest src -- --template vue
+#init:
+#	npm create vite@latest src -- --template vue

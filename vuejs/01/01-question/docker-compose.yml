@@ -14,7 +14,7 @@ services:
     tty: true
     ports: # ホストのポートとコンテナのポートを接続
       - "3000:3000"
-    command: yarn dev # 実行コマンド 今回はviteの実行コマンド
+#    command: yarn dev # 実行コマンド 今回はviteの実行コマンド
 # ↓↓↓コメントアウトしたまま↓↓↓
 # volumes: # 名前付きボリュームの設定
 #   node_modules:
