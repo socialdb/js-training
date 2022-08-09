@@ -9,7 +9,5 @@ ENV LANG=C.UTF-8 \
 # ↓↓↓ここはまだコメントアウト(後ほど使用)↓↓↓
 COPY package.json ./
 
-RUN npm install
-
 # 3000番でコンテナを公開
 EXPOSE 3000

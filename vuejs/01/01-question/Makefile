@@ -17,5 +17,3 @@ npm-dev:
 	docker-compose exec node npm run dev
 npm-build:
 	docker-compose exec node npm run build
-#init:
-#	npm create vite@latest src -- --template vue
