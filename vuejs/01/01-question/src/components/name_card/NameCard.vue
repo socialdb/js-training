@@ -44,7 +44,8 @@ export default {
 }
 
 .preview {
-  background-color: #f5f5f5;
+  color: #333333;
+  background-color: #00b09a;
   border: 1px solid #ccc;
   height: 200px;
   padding: 15px;
